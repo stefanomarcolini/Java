@@ -7,5 +7,5 @@ Java projects
 <ul>
   <li>Android</li>
   <li>Logbook App for Android</li>
-  <li>Ml</li>
+  <li>Ml (machine learning)</li>
 </ul>
