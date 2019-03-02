@@ -1,0 +1,23 @@
+<resources>
+    <string name="app_name">logbook-crud</string>
+    
+    <string name="txt_marca">marca</string>
+    <string name="txt_invoice">invoice</string>
+    <string name="txt_date">ddmmyy</string>
+    <string name="txt_name">name</string>
+    <string name="txt_dep">departure</string>
+    <string name="txt_dep_time">hh:mm</string>
+    <string name="txt_arr">arrival</string>
+    <string name="txt_arr_time">hh:mm</string>
+    <string name="txt_landings">landings</string>
+    <string name="txt_comment">comment</string>
+
+    <string name="btn_create">create</string>
+    <string name="btn_read">read</string>
+    <string name="btn_update">update</string>
+    <string name="btn_delete">delete</string>
+    <string name="btn_reset">reset</string>
+    <string name="txt_doc_id">document ID</string>
+
+    <string name="btn_logout">logout</string>
+</resources>
