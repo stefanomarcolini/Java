@@ -1,11 +1,11 @@
-# Java
-Java projects
+# Ml
+Java machime learning
 <hr>
 
-<p>This repository actually contains the following projects in separate branches</p>
+<p>This branch contains the following classes used in machine learning</p>
 
 <ul>
-  <li>Android</li>
-  <li>Logbook App for Android</li>
-  <li>Ml</li>
+  <li>Prediction</li>
+  <li>Classification</li>
+  <li>Matrix</li>
 </ul>
