@@ -1,6 +1,6 @@
-package design.pattern.creational.builder;
+package ***.***.***.builder;
 
-import design.pattern.creational.builder.Built.Builder;
+import ***.***.***.builder.Built.Builder;
 
 public class BuilderMain {
 
