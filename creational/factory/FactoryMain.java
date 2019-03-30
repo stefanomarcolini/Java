@@ -1,8 +1,8 @@
-package design.pattern.creational.factory;
+package ***.***.***.factory;
 
-import design.pattern.creational.factory.Factory.A;
-import design.pattern.creational.factory.Factory.B;
-import design.pattern.creational.factory.Factory.C;
+import ***.***.***.factory.Factory.A;
+import ***.***.***.factory.Factory.B;
+import ***.***.***.factory.Factory.C;
 
 public class FactoryMain {
 
