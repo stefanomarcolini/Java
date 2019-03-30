@@ -1,4 +1,4 @@
-package design.pattern.creational.builder;
+package ***.***.***.builder;
 
 /**
  * Builder implementation:
