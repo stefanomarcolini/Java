@@ -8,4 +8,5 @@ Java projects
   <li>Android</li>
   <li>Logbook App for Android</li>
   <li>Ml (machine learning)</li>
+  <li>Design Patterns</li>
 </ul>
