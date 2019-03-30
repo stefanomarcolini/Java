@@ -1,4 +1,4 @@
-package design.pattern.creational.singleton;
+package ***.***.***.singleton;
 
 public class SingletonMain {
 
