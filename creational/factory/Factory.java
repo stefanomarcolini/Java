@@ -59,7 +59,7 @@ public class Factory {
 			this.integer = integer;
 			this.string = string;
 			System.out.println("class B created >> Integer: " + (int)integer + 
-							   "\n                   String:  " + string);
+					   "\n                   String:  " + string);
 		}
 		
 	}
@@ -85,8 +85,8 @@ public class Factory {
 				}
 			}
 			System.out.println("class C created >> Double: " + (double)doublE + 
-							   "\n                   String: " + string + 
-							   "\n                   int[]:  " + Arrays.toString(array));
+					   "\n                   String: " + string + 
+					   "\n                   int[]:  " + Arrays.toString(array));
 		}
 		
 	}
