@@ -28,12 +28,12 @@ public class Built {
 	@Override
 	public String toString() {
 		return 	"Byte:  \t" + bytE + "\n" +
-				"Short: \t" + shorT + "\n" +
-				"Int:   \t" + inT + "\n" +
-				"Long:  \t" + lonG + "\n" +
-				"Float: \t" + floaT + "\n" +
-				"Double:\t" + doublE + "\n" +
-				"String:\t" + strinG;
+			"Short: \t" + shorT + "\n" +
+			"Int:   \t" + inT + "\n" +
+			"Long:  \t" + lonG + "\n" +
+			"Float: \t" + floaT + "\n" +
+			"Double:\t" + doublE + "\n" +
+			"String:\t" + strinG;
 	}
 	
 	/**
