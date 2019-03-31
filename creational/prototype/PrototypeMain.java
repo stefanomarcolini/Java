@@ -1,4 +1,4 @@
-package design.pattern.creational.prototype;
+package ***.***.creational.prototype;
 
 import java.util.LinkedList;
 
