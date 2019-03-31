@@ -1,7 +1,7 @@
-package design.pattern.structural.proxy;
+package ***.***.structural.proxy;
 
-import design.pattern.structural.proxy.Proxy.Person;
-import design.pattern.structural.proxy.Proxy.Privileges;
+import ***.***.structural.proxy.Proxy.Person;
+import ***.***.structural.proxy.Proxy.Privileges;
 
 public class ProxyMain {
 
