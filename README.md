@@ -2,7 +2,7 @@
 Design Patterns
 <hr>
 
-<p>This repository actually contains the following projects in separate branches</p>
+<p>This repository actually contains the following projects in separate folders</p>
 
 <ul>
   <li>Creational</li>
