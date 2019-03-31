@@ -56,7 +56,8 @@ public class Proxy {
 						break;
 					}
 				} else {
-					System.out.println(String.format("Sorry, you can't delete message %d as you are logged in as %s", id, person.privileges));
+					System.out.println(String.format("Sorry, you can't delete message %d as " + 
+									 "you are logged in as %s", id, person.privileges));
 					break;
 				}
 			}
