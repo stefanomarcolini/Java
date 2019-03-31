@@ -1,4 +1,4 @@
-package design.pattern.structural.proxy;
+package ***.***.structural.proxy;
 
 import java.util.LinkedList;
 
