@@ -1,94 +1,64 @@
 package ***.***.***.factory;
 
-import java.util.Arrays;
-
 /**
  * Factory design pattern implementation:
  * the Factory is responsible to choose which object
- * to create given the name of the object and a list
- * of parameters used to call the proper constructor
- * 
- * in this implementation the possible classes that
- * the Factory may create are public inner classes
+ * to create given the name of the object
  * */
-public class Factory {
-
-	public static Factory create(String className, Object...params) throws UnsupportedOperationException {
-		switch (className) {
+public class Factory implements IFactory {
+	
+	public Factory f = null;
+	
+	@Override
+	public IFactory create(String type) throws Exception {
+		switch (type.toUpperCase()) {
 			case "A":
-				return new A();
+				f = new A();
+				break;
 			case "B":
-				Integer integer = null;
-				String string = null;
-				for (Object o : params) {
-					if (o != null && o instanceof Integer) {
-						integer = Integer.valueOf(String.valueOf(o));
-					} else if (o != null && o instanceof String) {
-						string = String.valueOf(o);
-					}
-				}
-				return new B(integer, string);
+				f = new B();
+				break;
 			case "C":
-				return new C(params);
+				f = new C();
+				break;
 			default:
-				throw new UnsupportedOperationException("No matching classes found!");
+				throw new Exception("Unsupported Type");
 		}
+		return f;
 	}
+}
 
-	/**
-	 * this inner class is one of the classes
-	 * that can can be created by the Factory
-	 * */
-	public static class A extends Factory {
-	
-		public A() {
-			System.out.println("class A created");
-		}
-		
+interface IFactory {
+	public abstract IFactory create(String type) throws Exception;
+}
+
+interface IMethod {
+	public abstract void iMethod();
+}
+
+class A extends Factory implements IMethod {
+
+	@Override
+	public void iMethod() {
+		System.out.println("Class A - iMethod()");
 	}
-
-	/**
-	 * this inner class is one of the classes
-	 * that can can be created by the Factory
-	 * */
-	public static class B extends Factory {
 	
-		Integer integer;
-		String string;
-		public B(Integer integer, String string) {
-			this.integer = integer;
-			this.string = string;
-			System.out.println("class B created >> Integer: " + (int)integer + 
-					   "\n                   String:  " + string);
-		}
-		
+}
+
+class B extends Factory implements IMethod {
+
+	@Override
+	public void iMethod() {
+		System.out.println("Class B - iMethod()");
 	}
-
-	/**
-	 * this inner class is one of the classes
-	 * that can can be created by the Factory
-	 * */
-	public static class C extends Factory {
 	
-		Double doublE;
-		String string;
-		int[] array;
-		
-		public C(Object...params) {
-			for (Object o : params) {
-				if (o != null && o instanceof Double) {
-					doublE = Double.valueOf(String.valueOf(o));
-				} else if (o != null && o instanceof String) {
-					string = String.valueOf(o);
-				} else if (o != null && o instanceof int[]) {
-					array = (int[]) o;
-				}
-			}
-			System.out.println("class C created >> Double: " + (double)doublE + 
-					   "\n                   String: " + string + 
-					   "\n                   int[]:  " + Arrays.toString(array));
-		}
-		
+}
+
+class C extends Factory implements IMethod {
+
+	@Override
+	public void iMethod() {
+		System.out.println("Class C - iMethod()");
 	}
 	
 }
