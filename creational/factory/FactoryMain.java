@@ -1,16 +1,32 @@
 package ***.***.***.factory;
 
-import ***.***.***.factory.Factory.A;
-import ***.***.***.factory.Factory.B;
-import ***.***.***.factory.Factory.C;
-
 public class FactoryMain {
 
 	public static void main(String[] args) {
 		
-		A a = (A) Factory.create("A");
-		B b = (B) Factory.create("B", new Integer(10), "Hello World!");
-		C c = (C) Factory.create("C", Math.E, "Hi there!", new int[] {0, 1, 2, 3, 4});
+		IFactory i = new Factory();
+		
+		try {
+			
+			A a = (A)i.create("a");
+			a.iMethod();
+			
+			B b = (B)i.create("B");
+			b.iMethod();
+			
+			C c = (C)i.create("c");
+			c.iMethod();
+			
+		} catch (Exception e) {
+			e.printStackTrace();
+		}
+		
+		/*	OUTPUT:
+		 * 
+		 * Class A - iMethod()
+		 * Class B - iMethod()
+		 * Class C - iMethod()
+		 * */
 
 	}
 
