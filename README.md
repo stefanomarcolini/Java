@@ -5,8 +5,19 @@ Design Patterns
 <p>This repository actually contains the following projects in separate folders</p>
 
 <ul>
+  <li>Basics</li>
+  <li>Behavioral</li>
   <li>Creational</li>
   <li>Structural</li>
+</ul>
+
+<hr>
+<h3>Basics</h3>
+
+<hr>
+<h3>Behavioral</h3>
+<ul>
+  <li>Template</li>
 </ul>
 
 <hr>
