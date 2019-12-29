@@ -10,6 +10,8 @@ public class SingletonInnerProxy {
 
 	private static final SingletonInnerProxy instance = InnerProxy.singleton;
 	
+	private SingletonInnerProxy() {}
+	
 	private static final class InnerProxy {
 		private static final SingletonInnerProxy singleton = new SingletonInnerProxy();
 	}
