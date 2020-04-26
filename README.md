@@ -8,5 +8,6 @@ Java projects
   <li>Android</li>
   <li>Logbook App for Android</li>
   <li>Ml (machine learning)</li>
-  <li>Dasign Patterns</li>
+  <li>Design Patterns</li>
+  <li>Test Driven Development</li>
 </ul>
