@@ -10,6 +10,6 @@ Test Driven Development
 
 <hr>
 <h3>Math</h3>
-<p>contains code of the Math class written passing all tests of the MathTest class</p>
+<p>contains code of a simple Math class  written passing all tests in the MathTest class</p>
 <h3>MathTest</h3>
 <p>contains all test used to code the Math class and its methods</p>
