@@ -66,9 +66,7 @@ public class Math {
 		n = n < 0 ? -n : n;
 		d = d < 0 ? -d : d;
 		long q = 1;
-		while (d*q++ < n) {
-			//q++;
-		}
+		while (d*q++ < n) {}
 		if (d*--q > n) {
 			q--;
 		}
