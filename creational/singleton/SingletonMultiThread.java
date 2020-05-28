@@ -2,7 +2,7 @@ package ***.***.***.singleton;
 
 /**
  * Singleton multi thread implementation:
- * class lever variable instance is initialized when
+ * class level variable instance is initialized when
  * getInstance() method is called. Only one thread
  * can create a new instance of the Singleton.
  * 
